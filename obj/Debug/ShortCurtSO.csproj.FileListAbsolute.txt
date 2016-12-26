@@ -1,0 +1,9 @@
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\bin\Debug\ShortCurtSO.exe.config
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\bin\Debug\ShortCurtSO.exe
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\bin\Debug\ShortCurtSO.pdb
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\obj\Debug\ShortCurtSO.csprojResolveAssemblyReference.cache
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\obj\Debug\ShortCurtSO.Janela.resources
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\obj\Debug\ShortCurtSO.Properties.Resources.resources
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\obj\Debug\ShortCurtSO.csproj.GenerateResource.Cache
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\obj\Debug\ShortCurtSO.exe
+c:\users\jeff\documents\visual studio 2015\Projects\ShortCurtSO\obj\Debug\ShortCurtSO.pdb
