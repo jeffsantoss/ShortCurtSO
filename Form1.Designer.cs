@@ -33,6 +33,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -49,9 +50,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(47, 74);
+            this.textBox1.Location = new System.Drawing.Point(28, 80);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(391, 20);
+            this.textBox1.Size = new System.Drawing.Size(421, 20);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Ex: ipconfig # ping localhost # calc";
             this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
@@ -61,7 +62,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(89, 111);
+            this.button1.Location = new System.Drawing.Point(76, 121);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(144, 32);
             this.button1.TabIndex = 2;
@@ -73,7 +74,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(265, 111);
+            this.button2.Location = new System.Drawing.Point(269, 120);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(140, 32);
             this.button2.TabIndex = 3;
@@ -93,19 +94,31 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "consider the \' # \' character is delimiter\r\n";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Lime;
+            this.label3.Location = new System.Drawing.Point(45, 166);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(389, 20);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Developer By: Jeff.  Doubts? IG: jeffersonsantos__ GitHub : jeffsantoss";
+            // 
             // Janela
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(479, 157);
+            this.ClientSize = new System.Drawing.Size(479, 195);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "Janela";
-            this.Text = "Operacional System Shortcurt";
+            this.Text = "Operacional System Shortcurt v1.0";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -119,6 +132,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
